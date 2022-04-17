@@ -37,5 +37,5 @@ def main():
     if len(sys.argv[1]) < 14: 
         print("- Password must be at least 14 characters long") 
          
-if name == '__main__': 
+if __name__ == '__main__': 
     main()
